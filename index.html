@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online test PPC marketing - Kvíz "Jak dobře se orientujete v PPC reklamě?"</title>
+    <meta name="description" content="Online test zaměřený na znalosti PPC reklamy v Google Ads a internetového marketingu. Skvělý nástroj pro HR a zájemce o PPC.">
+    <meta name="keywords" content="PPC, adwords, ads, Google, marketing, online test, kvíz, reklama">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/68f4d4021c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- CONTAINER -->
+    <div class="container d-flex align-items-center min-vh-100">
+        <div class="row g-0 justify-content-center">
+            <!-- TITLE -->
+            <div class="col-lg-4 offset-lg-1 mx-0 px-0">
+                <div id="title-container">
+                    <img class="covid-image" src="images/programming.png">
+                    <h1>PPC Marketing</h1>
+                    <h2>Online kvíz</h2>
+                    <p>Otestujte své znalosti internetového marketingu. Test obsahuje užitečné a často kladené otázky, se kterými se můžete setkat u certifikační zkoušky nebo vstupního pohovoru.</p>
+                </div>
+            </div>
+            <!-- FORMS -->
+            <div class="col-lg-7 mx-0 px-0">
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger time-line" role="progressbar" style="width: 0%"></div>
+                </div>
+
+                <div id="qbox-container">
+                    <div class="top-bar d-flex justify-content-between align-items-center">
+                        <div class="question-counter"></div>
+                        <div class="timer d-flex justify-content-between">
+                            <span><i class="fa-regular fa-clock"></i></span>
+                            <span class="time-left"></span>
+                        </div>
+                    </div>
+                    <form class="needs-validation" id="form-wrapper" method="post" name="form-wrapper" novalidate="">
+                        <div id="steps-container">
+                            
+                            <div class="test-start col-12">
+                                <h4>Každá otázká má svůj časový limit. Test nelze v průběhu přerušit. Jsi připraven?</h4>
+                            </div>
+                            <div class="quest-text step">
+                                <div class="quest-option form-check ps-0 q-box"></div>
+                            </div>
+                            
+                            <div id="results" class="text-center">
+                                <i class="fa-solid fa-crown"></i>
+                                <h4>A je to! Test je u konce!</h4>
+                                <div class="score py-3">
+                                    <!-- tady bude score -->
+
+                                </div>
+                                <div class="pt-5">
+                                <a href="https://ppc.stanislav-drako.cz" class="text-decoration-none text-primary">Vyzkoušej PPC nástroj pro skládání klíčových slov a frází</a>
+                                <button class="replay-quiz-btn mt-1" type="button" id="submit-btn" onclick="location.reload()">Znovu</button>
+                                </div>
+                            </div>
+                        </div>
+                                                
+                        <div id="q-box__buttons">
+                            <button id="prev-btn" type="button" class="start-quiz-btn">Spustit</button> 
+                            <button id="next-btn" type="button" class="d-inline-block click-disable d-none next-quest-btn">Další otázka</button> 
+                            <button id="submit-btn" type="submit" class="d-none">Submit</button>
+                        </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="bg-dark mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center py-2">
+                    <p class="px-1 text-light"><small>Vytvoři s láskou 
+                    <a href="https://www.stanislav-drako.cz" class="text-primary text-decoration-none"> Stanislav Drako</a>
+                    2021 - <span id="year"></span>. © CC BY</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="scripts/app_encode.js" type="text/javascript"></script><!--
+
+-->
+</html>
